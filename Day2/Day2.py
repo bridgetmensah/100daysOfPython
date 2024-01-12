@@ -32,3 +32,5 @@ first = int(two_digit_number[0])
 second = int(two_digit_number[1])
 result = first + second
 print(result)
+
+
