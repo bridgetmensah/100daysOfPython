@@ -33,4 +33,39 @@ second = int(two_digit_number[1])
 result = first + second
 print(result)
 
+# the round function is used to round up numbers to whole
+# point or specific number of places 
+print(round(8/3 , 2))
+# the // is used to directly convert a division to integer
 
+final = 4 // 2 
+print(final)
+final //= 2
+print(final)
+
+# F- String in python
+score = 12
+height = 1.8
+isWinnig = True
+print(f"your score is {score}, your height is {height}")
+
+
+# Create a program using maths and
+# f-Strings that tells
+# us how many weeks we have left, 
+# if we live until 90 years old.
+# It will take your current age 
+# as the input and output
+# a message with our time left in this format:
+# You have x weeks left
+# Where x is replaced with the actual
+# calculated number of weeks the 
+# input age has left until age 90.
+
+age = input("how ols are you? ")
+# 🚨 Don't change the code above 👆
+# Write your code below this line 👇
+totalweeks = 4680
+age_in_weeks = int(age) * 52
+age_left = totalweeks - int(age_in_weeks)
+print(f"You have {age_left} weeks left.")
